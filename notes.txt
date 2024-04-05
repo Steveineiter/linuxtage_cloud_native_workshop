@@ -1,4 +1,10 @@
 Des alles wsl mehr relevant fia grosse firmen / wenn ma international arbeitet und mit sensiblen Code quasi (aka Firmen wollen nid das der is environment verlaesst)
+* Also see:
+- https://github.com/patkoch/azure_terraform_codespace
+- https://github.com/patkoch/terraform-azure-virtual-machine-linux
+- https://github.com/patkoch/devcontainer/blob/main/az-k8s-helm/Dockerfile (to install kubectl)
+- https://github.com/patkoch/container/blob/main/azure-meetup-demo/linux-job/linux-job.yml (for jobs)
+
 
 * mby um slides fragen :3
 * Cloud nativ is grad ziemli hyped, wie AI 
