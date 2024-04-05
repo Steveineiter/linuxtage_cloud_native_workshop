@@ -1,0 +1,22 @@
+Des alles wsl mehr relevant fia grosse firmen / wenn ma international arbeitet und mit sensiblen Code quasi (aka Firmen wollen nid das der is environment verlaesst)
+
+* mby um slides fragen :3
+* Cloud nativ is grad ziemli hyped, wie AI 
+* Stack mit Dev Container, GitHub Codespaces, Terraform, Kubernets und Azure -> ganze infrasructure on cloud
+* HitHUb Codespaces nice weil sachen nid auf laptops usw liegt (aka rechte / lizenzen usw), der code kommt nid lokal auf laptop - bleibt in cloud (fia gewisse policys interessant)
+* Ma baut zuerst and GitHub Codespace, dann a Terrafrom VM (da baut ma normalerweise a network mit VPN usw), dann im GitHub Codespace terminal mit az login in azure einloggen
+* Azure: Durch resourcen gruppen kann ma mehrere gleiche networks name usw haben
+* Die ganzen commands bei der terrafrom VM dann im gleichen dingsi eingeben wo der key / die anderen files liegen
+* Frage warum i den gaznen stack brauch / warum nid nur github codespace alleine reicht
+* Azure spot instances mby interessant, app services (serverless) am smartesten beim einsteigen, generell die ganzne cloud sachen halt gefaehlrich weil oft billig am start aber werden dann insane teuer over time / mit demand
+* tauschen von terraform (also eg azure zu AWS) ist so meh, i mein ma muss nur die resource packages changen recht sollte recht gut gehen - wenn ma nur eines davon nimmt (eg AWS only) ist halt die frage ob ma terraform braucht 
+* sachen von terminal in docker container script rein schreiben weil sonst muss ma stuff immer neu aufsezten 
+* Eig kann i alle meine sachen von kubernet a local laufen lassen 
+* um kubectl zu installieren: https://github.com/patkoch/devcontainer/blob/main/az-k8s-helm/Dockerfile
+* Job triggern mit  kubectl apply -f linux-job.yaml 
+* Wsl macht merh sinn udemy course dazu machen wenns mi mehr juckt xD
+* Job arbeitet afoch, statefulset laft immer (nid nur fia eg 1nen task) 
+* glaub des yml file startet dann afoch is dockerfile was im fodler drinnen is (also bei ihm eg bei https://github.com/patkoch/container/blob/main/azure-meetup-demo/linux-statefulset/linux-statefulset.yml) 
+* Kubernets zahlt sich eben erst dann aus wennst viele container hast
+* Serverless service is cool wenn klein
+* Wenn ma mit Docker und Container arbeitet am besten bei Linux bleiben xD
