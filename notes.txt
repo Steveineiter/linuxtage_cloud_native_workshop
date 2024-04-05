@@ -26,3 +26,4 @@ Des alles wsl mehr relevant fia grosse firmen / wenn ma international arbeitet u
 * Kubernets zahlt sich eben erst dann aus wennst viele container hast
 * Serverless service is cool wenn klein
 * Wenn ma mit Docker und Container arbeitet am besten bei Linux bleiben xD
+* Ah halt cool weil ma viel auslagert, ah mit security usw
